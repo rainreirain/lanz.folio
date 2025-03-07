@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance Andres - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="rain-container">
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+    </div>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-text">Portfolio 2025</div>
+            <div class="loading-name">Andres</div>
+            <div class="loading-dots">
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="nav-content">
+            <div class="logo">
+                <img src="pacman.png" alt="Pacman Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <img src="profpic.jpg" alt="Lance Andres" class="profile-image">
+            </div>
+            <div class="hero-right">
+                <div class="hello-text" aria-label="こんにちは">
+                    <span>こ</span><span>ん</span><span>に</span><span>ち</span><span>は</span>
+                </div>
+                <p class="hero-text">I am a 3rd-year Information Systems student at Mapúa Malayan Colleges Mindanao, deeply passionate about coding and innovative problem-solving. I enjoy delving into various coding projects that push my creativity and analytical skills to the next level.</p>
+                <div class="clock">
+                    <span id="time"></span>
+                    <span id="date"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-hidden">
+        <div class="container">
+            <div class="jp-title">
+                <span>私</span><span>に</span><span>つ</span><span>い</span><span>て</span>
+            </div>
+            <h2 class="section-title">About Me.</h2>
+            <div class="about-grid">
+                <div class="about-column">
+                    <h3>education</h3>
+                    <div class="education-item">
+                        <h4>Mapúa Malayan Colleges Mindanao</h4>
+                        <p class="period">2022 - Present</p>
+                        <p>BS Information Systems</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML</span>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <h4>Mapúa Malayan Colleges Mindanao</h4>
+                        <p class="period">2020 - 2022</p>
+                        <p>Senior High School - STEM</p>
+                        <p>2nd Honors</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Rogationist Academy Davao</h4>
+                        <p class="period">2016 - 2020</p>
+                        <p>Junior High School</p>
+                    </div>
+                </div>
+                <div class="about-column">
+                    <h3>certificate</h3>
+                    <div class="experience-item">
+                        <h4 id="project-development" class="clickable">Project Development</h4>
+                        <p class="period">2022 - Present</p>
+                        <p>Working on various coding projects that involve web development, mobile applications, and innovative solutions.</p>
+                        <div id="project-details" class="project-details">
+                            <img src="ai.jpg" alt="AI Certificate" class="project-image" id="ai-image">
+                            <img src="aws.jpg" alt="AWS Certificate" class="project-image" id="aws-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-hidden">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="prog.jpg" alt="Programming">
+                    </div>
+                    <div class="skill-content">
+                        <h3>Programming</h3>
+                        <p>Proficient in a diverse range of programming languages including Python, C#, C++, Java, JavaScript, HTML, CSS, R, and TypeScript. I continuously strive to expand my coding expertise to solve complex problems and build innovative solutions.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="editing.jpg" alt="Video Editing">
+                    </div>
+                    <div class="skill-content">
+                        <h3>Video Editing</h3>
+                        <p>I have extensive experience in video editing, utilizing various tools such as Adobe Premiere, CapCut, and Adobe After Effects.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="design.jpg" alt="Design">
+                    </div>
+                    <div class="skill-content">
+                        <h3>Design</h3>
+                        <p>I am experienced in creating visually appealing and user-centric designs, leveraging tools like Adobe Photoshop, Canva, Figma, Pixlr, and Vectr.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section-hidden">
+        <div class="container">
+            <div class="jp-title">
+                <span>経</span><span>験</span>
+            </div>
+            <h2 class="section-title">Experience.</h2>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C#</span>
+                        <span>C++</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile</h3>
+                    <div class="skill-list">
+                        <span>Android</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <div class="skill-list">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <span>Android Studio</span>
+                        <span>R Studio</span>
+                        <span>PyCharm</span>
+                        <span>Visual Studio Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recent-project" class="recent-project section-hidden">
+        <div class="container">
+            <div class="jp-title">
+                <span>最</span><span>近</span><span>の</span><span>プ</span><span>ロ</span><span>ジ</span><span>ェ</span><span>ク</span><span>ト</span>
+            </div>
+            <h2 class="section-title">Recent Projects.</h2>
+            <div class="project-container">
+                <!-- Eliza's Cozy Home -->
+                <div class="project-card">
+                    <a href="https://github.com/rainreirain/eliza-cozyhome" target="_blank" class="project-image">
+                        <img src="eliza.png" alt="Eliza's Cozy Home">
+                    </a>
+                    <div class="project-description">
+                        <h3>Eliza's Cozy Home</h3>
+                        <p>A modern home rental platform with elegant design and seamless booking experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rainreirain/eliza-cozyhome" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive System -->
+                <div class="project-card">
+                    <a href="https://lansvl.vercel.app/" target="_blank" class="project-image">
+                        <img src="first.png" alt="Interactive System">
+                    </a>
+                    <div class="project-description">
+                        <h3>Interactive System</h3>
+                        <p>A dynamic web application showcasing interactive user experiences and modern design principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lansvl.vercel.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Design -->
+                <div class="project-card">
+                    <a href="https://malayancollegesmindanaoo365-my.sharepoint.com/:f:/g/personal/lrandres_mcm_edu_ph/EsLlIaYKXYxGlYoPINZY4k8B5mhx5IjM-ZzaEXRmiB4U9g?e=bhVUvZ" target="_blank" class="project-image">
+                        <img src="eliz2.png" alt="System Design">
+                    </a>
+                    <div class="project-description">
+                        <h3>System Design</h3>
+                        <p>Comprehensive system architecture and design documentation for modern applications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">UML</span>
+                            <span class="tech-tag">Architecture</span>
+                            <span class="tech-tag">Documentation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://malayancollegesmindanaoo365-my.sharepoint.com/:f:/g/personal/lrandres_mcm_edu_ph/EsLlIaYKXYxGlYoPINZY4k8B5mhx5IjM-ZzaEXRmiB4U9g?e=bhVUvZ" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Projects -->
+                <div class="project-card">
+                    <a href="https://www.canva.com/design/DAGVnKjpCJo/bmkBXqRjvT_viTGv0YVQ3w/view?utm_content=DAGVnKjpCJo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6e9c9a0d2a" target="_blank" class="project-image">
+                        <img src="experience.png" alt="Other Projects">
+                    </a>
+                    <div class="project-description">
+                        <h3>Other Projects</h3>
+                        <p>A collection of various projects and experiences showcasing diverse technical skills.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Various</span>
+                            <span class="tech-tag">Technologies</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.canva.com/design/DAGVnKjpCJo/bmkBXqRjvT_viTGv0YVQ3w/view?utm_content=DAGVnKjpCJo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6e9c9a0d2a" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View All
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-hidden">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-title">
+                    Let's <span class="highlight">code</span> and<br>
+                    <span class="highlight">bring</span> ideas<br>
+                    <span class="highlight">to life.</span>
+                </h2>
+                <div class="contact-links">
+                    <a href="mailto:lrAndres@mcm.edu.ph" class="contact-link">
+                        <span class="contact-text">lrAndres@mcm.edu.ph</span>
+                    </a>
+                    <div class="social-buttons">
+                        <a href="https://github.com/yourgithub" class="social-button" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lance-andres-342b38293/" class="social-button" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/lansvl.r/" class="social-button" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lansvl.r/" class="social-button" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@lansvl" class="social-button" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                    <div class="spotify-player">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1wUnuiXMMvhudmzvcCtlZP?utm_source=generator&autoplay=1" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
